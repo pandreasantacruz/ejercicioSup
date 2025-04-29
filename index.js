@@ -1,1 +1,1 @@
-console.log("Hola mundo");
+const suma = (...numeros) => Array.from(numeros).reduce((acc, num) => (acc + num));
